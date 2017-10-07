@@ -1,7 +1,7 @@
 # SentimentalAnalysis
 Sentimental Analysis  using scikit pipelines and custom featurizer 
 
-#Feature Engineering
+# Feature Engineering
 In many practical machine learning problems, the raw data is not provided in a format that is easily
 understood by learning algorithms. To get the best performance from a machine learning model,
 certain dimensions or features need to be engineered by the programmer prior to the learning phase.
@@ -10,7 +10,7 @@ machine. For example, if we want a machine learning model to learn about natural
 may be better to feed in frequency counts of the words in a document, compared to just a plaintext
 string.
 
-#Classification
+# Classification
 using scikit pipeline and feature Union to develop custom features and SGD to classify movie reviews as positive or negative
 
 Custom features included are:
@@ -35,7 +35,7 @@ Used regex to find the ratings and took the last rating of the review assuming t
 Increased performance by 2 overall.
 All the above features were normalized using l2 Normalization by sklearn's Normalizer
 
-#Improvements:
+# Improvements:
 1. Parts of speech 
 using nltk's tagger to tag the content and nltk.sentiment.vader.SentimentIntensityAnalyzer to find the sentiment.
 This increased the performance over baseline by 20.
